@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter for Messenger</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/png">
+</head>
+
+<body class="bg-gray-100">
+    <nav class="bg-white shadow">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-gray-800"><img src="icon.png" alt="icon"
+                        class="w-8 h-8 inline-block mr-2 mb-2">Counter for Messenger</a>
+                <div class="flex">
+                    <a href="download.html"
+                        class="ml-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Download</a>
+                    <a href="https://github.com/Kubis10/CounterForMessenger" target="_blank"
+                        class="ml-4 inline-block bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto px-6 py-6">
+        <img src="https://user-images.githubusercontent.com/50967586/211426399-263e03d0-cb17-4f00-adbf-018f451e277d.png"
+            alt="Counter for Messenger" class="w-2/3 mx-auto mb-8 rounded-lg shadow-lg">
+        <h1 class="text-3xl font-bold text-gray-800 text-center">Counter for Messenger</h1>
+        <p class="text-gray-600 text-center mt-2">A simple and easy-to-use counter for Facebook Messenger.</p>
+        <div class="flex justify-center mt-8">
+            <a href="download.html"
+                class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Download</a>
+        </div>
+    </div>
+    <div class="container mx-auto px-6 py-6">
+        <h1 class="text-3xl font-bold mb-4">What is it?</h1>
+        <p class="mb-4">
+            Counter For Messenger is a free desktop app which counts how many messages on Messenger you have and
+            provides a lot more statistics.
+        </p>
+
+        <p class="mb-4">
+            You can check extensive and accurate statistics for each chat (group and private) that you won't find in any
+            other application. Just double click.
+        </p>
+        <div class="flex justify-center mb-4">
+            <img src="https://github.com/Kubis10/CounterForMessenger/assets/50967586/435dcde8-6b89-4524-a18a-37ef2814f674"
+                alt="files">
+        </div>
+
+        <p class="mb-4">
+            You can also check the number of messages for specific time intervals, so if you want to do a "messenger
+            wrapped" this is the perfect app for that.
+        </p>
+
+        <h3 class="text-xl font-bold mb-2">How to use</h3>
+        <p class="mb-4">
+            To use this app you need to download all (recommended) your data directly from Facebook (in JSON format) and
+            unzip all files to one folder.
+            <a href="#how-to-download-messages" class="text-blue-500">How
+                to download my data?</a>
+        </p>
+        <div class="flex justify-center mb-4">
+            <img src="https://user-images.githubusercontent.com/50967586/154366070-ea81176f-fd28-4572-bd21-1769451ab60b.png"
+                alt="files">
+        </div>
+
+        <p class="mb-4">
+            In messages folder you need to copy all folders from archived_threads, filtered_threads, e2ee_cutover, and
+            message_requests to inbox folder. Sometimes you will have 2 folders your_activity_across_facebook and
+            your_facebook_activity so you need to copy from all places to one folder.
+        </p>
+
+        <h3 class="text-xl font-bold mb-2" id="how-to-download-messages">How to download messages</h3>
+        <ol class="list-decimal list-inside mb-4">
+            <li>Select Settings & Privacy in the top right of Facebook, then click Settings.</li>
+            <li>In the left column, click Your Facebook Information.</li>
+            <li>Click on Download Your Information.</li>
+        </ol>
+        <div class="flex justify-center mb-4">
+            <img src="https://user-images.githubusercontent.com/17026216/99185953-4e075300-274d-11eb-99f1-eb475a465652.png"
+                alt="Download your information" class="w-1/2">
+        </div>
+        <ol class="list-decimal list-inside mb-4">
+            <li>Deselect all and select "Messages" category by clicking the box on the right side.</li>
+            <li>I recommend you to select low quality and data range to all time for full result.</li>
+            <li>It is necessary to choose JSON format of your download request.</li>
+        </ol>
+        <div class="flex justify-center mb-4">
+            <img src="https://user-images.githubusercontent.com/50967586/154365289-96fdd4e0-93a1-4ef7-8f40-20c32711fcd4.png"
+                alt="Choose JSON format" class="w-1/2">
+        </div>
+        <ol class="list-decimal list-inside mb-4">
+            <li>Click Create File to confirm the download request.</li>
+            <li>Facebook will notify you when your copy will be ready to download. (It can take up to few days)</li>
+            <li>Go to the Available Files section.</li>
+            <li>Click Download and enter your password.</li>
+        </ol>
+
+        <h3 class="text-xl font-bold mb-2">Licence</h3>
+        <p class="mb-4">
+            <strong>Counter For Messenger</strong> is licensed under <a
+                href="https://github.com/Kubis10/CounterForMessenger/blob/master/LICENSE"
+                class="text-blue-500">Beerware</a>.
+        </p>
+    </div>
+
+
+
+
+    <footer class="text-center text-gray-500 text-sm mt-8">
+        <p>Made with ❤️ by <a href="https://jakubprzybysz.netlify.app" class="text-blue-500">Kubis10</a></p>
+    </footer>
+</body>
+
+</html>
